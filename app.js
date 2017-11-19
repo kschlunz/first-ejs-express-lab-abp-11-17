@@ -1,9 +1,9 @@
 var express = require('express')
 var app = express()
 
-app.get("/", function(req, resp){
+app.get("/about", function(req, resp){
   const welcomeText= "WELCOME TO MY PAGE"
-  resp.render('welcomeText')
+  resp.render('about')
 
 })
 
